@@ -26,7 +26,7 @@ class Ideone
 				}
 			}
 			if(!flag)
-			System.out.print(n);
+			System.out.print(n+" ");
 			++n;
 		}
 	}

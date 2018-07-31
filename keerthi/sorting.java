@@ -33,6 +33,7 @@ Scanner s=new Scanner(System.in);
 			{
 				System.out.print(a[i]+" ");
 			}
+	
 		
 	}
 }

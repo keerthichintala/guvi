@@ -12,7 +12,7 @@ class Ideone
 		// your code goes here
 		Scanner s=new Scanner(System.in);
 		String sr=s.nextLine();
-		System.out.println(sr);
+		
 		int len=0;
 		int wordlen=1;
 		len=sr.length();

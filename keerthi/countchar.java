@@ -12,13 +12,13 @@ class Ideone
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
                         String str = sc.nextLine();
-                        int characters = 0;
+                        int charlength = 0;
 for (int i = 0, length = str.length(); i < length; i++) {
   if (str.charAt(i) != ' ') {
-    characters++;
+    charlength++;
   }
 }
 
-        System.out.println(characters);
+        System.out.println(charlength);
 	}
 }

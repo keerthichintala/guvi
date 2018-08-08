@@ -21,7 +21,7 @@ class Ideone
 		{
 		for(j=1;j<10;j++)
 		{
-			if(a[i]<a[j])
+			if(a[i]<=a[j])
 			{
 				a[i]=a[j];
 				max=a[i];

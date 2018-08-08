@@ -26,7 +26,7 @@ class Ideone
 				a[i]=a[j];
 				max=a[i];
 			}
-			}
+		}
 		}
 		System.out.println(max);
 	}

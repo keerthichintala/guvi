@@ -14,10 +14,7 @@ class Ideone
 		String str1,str2;
 		str1=s.next();
 		str2=s.next();
-	
-		if(str1.length()==str2.length())
-		System.out.println(str1);
-		else if(str1.length()>str2.length())
+		if(str1.length()>str2.length())
 		System.out.println(str1);
 		else
 		System.out.println(str2);

@@ -13,7 +13,7 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		double dl=s.nextDouble();
 		double lb=s.nextDouble();
-		double k=dl=lb;
+		double k=dl*lb;
 		System.out.printf("%.5f",k);
 	}
 }

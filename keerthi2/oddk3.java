@@ -11,37 +11,27 @@ class Ideone
 	{
 		// your code goes here
 		Scanner s=new Scanner(System.in);
-		int n,k;
+		int n,k,l=0;
 		n=s.nextInt();
 		k=s.nextInt();
 		int[] a=new int[10];
-		int l=0;
 		for(int i=1;i<=n;i++)
 		{
 			a[i]=s.nextInt();
 		}
 		for(int i=1;i<=n;i++)
 		{
-			if(i==k)
+			if(a[i]%2!=0)
 			{
-				if(a[i]%2!=0)
+				l++;
+				if(l==k)
 				{
 					System.out.print(a[i]);
 					break;
 				}
-				else
-				{
-					while(i<=n)
-					{
-						i++;
-						if(a[i]%2!=0)
-						{
-							System.out.print(a[i]);
-							break;
-						}
-					}
-				}
 			}
+		
+			
 		}
 	}
 }
